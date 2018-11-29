@@ -1,0 +1,9 @@
+package com.mortgageinsurance;
+
+import java.lang.Number;
+
+rule "Approval 2"
+	dialect "mvel"
+	when
+	then
+end
