@@ -6,12 +6,24 @@ package com.mortgageinsurance;
 
 public class Customer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Customer() {
-    }
+	@org.kie.api.definition.type.Label(value = "credit rating")
+	private java.lang.Double creditRating;
 
+	public Customer() {
+	}
 
+	public java.lang.Double getCreditRating() {
+		return this.creditRating;
+	}
 
+	public void setCreditRating(java.lang.Double creditRating) {
+		this.creditRating = creditRating;
+	}
+
+	public Customer(java.lang.Double creditRating) {
+		this.creditRating = creditRating;
+	}
 
 }
