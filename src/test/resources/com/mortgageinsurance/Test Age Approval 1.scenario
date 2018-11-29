@@ -8,19 +8,25 @@
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>18</value>
+          <value>20</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
       <name>applicant</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>27</executionTimeResult>
+      <numberOfRulesFired>0</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>approved</fieldName>
           <expected>true</expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[applicant] field [approved] was [] expected [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -29,6 +35,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2018-11-29 20:42:54.282 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.mortgageinsurance</packageName>
