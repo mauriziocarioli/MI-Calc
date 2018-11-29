@@ -21,17 +21,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>7</executionTimeResult>
+      <executionTimeResult>8</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>approved</fieldName>
-          <expected>true</expected>
-          <actualResult></actualResult>
+          <expected>false</expected>
+          <actualResult>false</actualResult>
           <successResult>false</successResult>
-          <explanation>[applicant] field [approved] was [] expected [true].</explanation>
+          <explanation>[applicant] field [approved] was [false] expected [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -40,7 +40,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-11-29 20:43:29.956 UTC</lastRunResult>
+  <lastRunResult>2018-11-29 20:44:08.389 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.mortgageinsurance</packageName>
