@@ -8,8 +8,11 @@ public class Customer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "credit rating")
+	@org.kie.api.definition.type.Label("credit rating")
 	private java.lang.Double creditRating;
+
+	@org.kie.api.definition.type.Label(value = "approved")
+	private java.lang.Boolean approved;
 
 	public Customer() {
 	}
@@ -22,8 +25,17 @@ public class Customer implements java.io.Serializable {
 		this.creditRating = creditRating;
 	}
 
-	public Customer(java.lang.Double creditRating) {
+	public java.lang.Boolean getApproved() {
+		return this.approved;
+	}
+
+	public void setApproved(java.lang.Boolean approved) {
+		this.approved = approved;
+	}
+
+	public Customer(java.lang.Double creditRating, java.lang.Boolean approved) {
 		this.creditRating = creditRating;
+		this.approved = approved;
 	}
 
 }
