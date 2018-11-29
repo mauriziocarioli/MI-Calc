@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>20</value>
+          <value>18</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -31,7 +31,7 @@
           <expected>true</expected>
           <actualResult>false</actualResult>
           <successResult>true</successResult>
-          <explanation>[applicant] field [approved] was [false].</explanation>
+          <explanation>[applicant] field [approved] was [true].</explanation>
           <operator>==</operator>
           <nature>0</nature>
         </expect-field>
@@ -40,7 +40,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2018-11-29 20:44:32.432 UTC</lastRunResult>
+  <lastRunResult>2018-11-29 20:46:17.771 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.mortgageinsurance</packageName>
