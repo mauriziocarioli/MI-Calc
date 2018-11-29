@@ -1,0 +1,9 @@
+package com.mortgageinsurance;
+
+import java.lang.Number;
+
+rule "Age Approval"
+	dialect "mvel"
+	when
+	then
+end
