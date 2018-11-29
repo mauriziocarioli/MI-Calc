@@ -5,5 +5,7 @@ import java.lang.Number;
 rule "Credit Approval"
 	dialect "mvel"
 	when
+		applicant : Customer( creditRating < 300 )
 	then
+		applicant.setApproved( false );
 end
