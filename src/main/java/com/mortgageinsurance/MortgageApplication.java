@@ -6,12 +6,70 @@ package com.mortgageinsurance;
 
 public class MortgageApplication implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public MortgageApplication() {
-    }
+	@org.kie.api.definition.type.Label(value = "program")
+	private java.lang.String program;
+	@org.kie.api.definition.type.Label(value = "years")
+	private java.lang.Integer years;
+	@org.kie.api.definition.type.Label(value = "amount")
+	private java.lang.Integer amount;
+	@org.kie.api.definition.type.Label(value = "LTV")
+	private java.lang.Double ltv;
+	@org.kie.api.definition.type.Label(value = "annual MIP")
+	private java.lang.Integer annualMIP;
 
+	public MortgageApplication() {
+	}
 
+	public java.lang.String getProgram() {
+		return this.program;
+	}
 
+	public void setProgram(java.lang.String program) {
+		this.program = program;
+	}
+
+	public java.lang.Integer getYears() {
+		return this.years;
+	}
+
+	public void setYears(java.lang.Integer years) {
+		this.years = years;
+	}
+
+	public java.lang.Integer getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(java.lang.Integer amount) {
+		this.amount = amount;
+	}
+
+	public java.lang.Double getLtv() {
+		return this.ltv;
+	}
+
+	public void setLtv(java.lang.Double ltv) {
+		this.ltv = ltv;
+	}
+
+	public java.lang.Integer getAnnualMIP() {
+		return this.annualMIP;
+	}
+
+	public void setAnnualMIP(java.lang.Integer annualMIP) {
+		this.annualMIP = annualMIP;
+	}
+
+	public MortgageApplication(java.lang.String program,
+			java.lang.Integer years, java.lang.Integer amount,
+			java.lang.Double ltv, java.lang.Integer annualMIP) {
+		this.program = program;
+		this.years = years;
+		this.amount = amount;
+		this.ltv = ltv;
+		this.annualMIP = annualMIP;
+	}
 
 }
