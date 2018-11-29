@@ -1,5 +1,5 @@
 <scenario>
-  <name>Test Age Approval 1.scenario</name>
+  <name>Test underage.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>18</value>
+          <value>17</value>
           <nature>4</nature>
         </field-data>
         <field-data>
@@ -28,7 +28,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>approved</fieldName>
-          <expected>true</expected>
+          <expected>false</expected>
           <actualResult>false</actualResult>
           <successResult>true</successResult>
           <explanation>[applicant] field [approved] was [true].</explanation>
