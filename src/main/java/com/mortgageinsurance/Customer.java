@@ -11,8 +11,11 @@ public class Customer implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("credit rating")
 	private java.lang.Double creditRating;
 
-	@org.kie.api.definition.type.Label(value = "approved")
+	@org.kie.api.definition.type.Label("approved")
 	private java.lang.Boolean approved;
+
+	@org.kie.api.definition.type.Label(value = "age")
+	private java.lang.Integer age;
 
 	public Customer() {
 	}
@@ -33,9 +36,19 @@ public class Customer implements java.io.Serializable {
 		this.approved = approved;
 	}
 
-	public Customer(java.lang.Double creditRating, java.lang.Boolean approved) {
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
+
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public Customer(java.lang.Double creditRating, java.lang.Boolean approved,
+			java.lang.Integer age) {
 		this.creditRating = creditRating;
 		this.approved = approved;
+		this.age = age;
 	}
 
 }
