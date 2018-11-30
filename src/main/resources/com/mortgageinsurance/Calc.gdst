@@ -210,7 +210,12 @@
       </value>
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[6]/typedDefaultValue"/>
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[7]/typedDefaultValue"/>
-      <value reference="../../../actionCols/set-field-col52/typedDefaultValue"/>
+      <value>
+        <valueNumeric class="int">45</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -245,7 +250,12 @@
       </value>
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[6]/typedDefaultValue"/>
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[7]/typedDefaultValue"/>
-      <value reference="../../../actionCols/set-field-col52/typedDefaultValue"/>
+      <value>
+        <valueNumeric class="int">50</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -280,7 +290,12 @@
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[5]/typedDefaultValue"/>
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[6]/typedDefaultValue"/>
       <value reference="../../../conditionPatterns/Pattern52/conditions/condition-column52[7]/typedDefaultValue"/>
-      <value reference="../../../actionCols/set-field-col52/typedDefaultValue"/>
+      <value>
+        <valueNumeric class="int">60</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -332,6 +347,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="int">70</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -366,11 +382,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="int">7000</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="int">8000</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -386,6 +404,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="int">80</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
