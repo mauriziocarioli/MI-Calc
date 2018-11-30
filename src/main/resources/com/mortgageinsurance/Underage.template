@@ -3,8 +3,46 @@
   <modelVersion>1.0</modelVersion>
   <attributes/>
   <metadataList/>
-  <lhs/>
-  <rhs/>
+  <lhs>
+    <fact>
+      <constraintList>
+        <constraints>
+          <fieldConstraint>
+            <value>18</value>
+            <operator>&lt;</operator>
+            <constraintValueType>1</constraintValueType>
+            <expression>
+              <parts/>
+              <index>2147483647</index>
+            </expression>
+            <parameters/>
+            <factType>Customer</factType>
+            <fieldName>age</fieldName>
+            <fieldType>Integer</fieldType>
+          </fieldConstraint>
+        </constraints>
+      </constraintList>
+      <factType>Customer</factType>
+      <boundName>applicant</boundName>
+      <isNegated>false</isNegated>
+      <window>
+        <parameters/>
+      </window>
+    </fact>
+  </lhs>
+  <rhs>
+    <setField>
+      <fieldValues>
+        <fieldValue>
+          <field>approved</field>
+          <value>false</value>
+          <nature>1</nature>
+          <type>Boolean</type>
+        </fieldValue>
+      </fieldValues>
+      <variable>applicant</variable>
+    </setField>
+  </rhs>
   <imports>
     <imports/>
   </imports>
