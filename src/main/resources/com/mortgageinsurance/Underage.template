@@ -8,9 +8,9 @@
       <constraintList>
         <constraints>
           <fieldConstraint>
-            <value>18</value>
+            <value>$ageLimit</value>
             <operator>&lt;</operator>
-            <constraintValueType>1</constraintValueType>
+            <constraintValueType>7</constraintValueType>
             <expression>
               <parts/>
               <index>2147483647</index>
@@ -51,6 +51,10 @@
   <table>
     <entry>
       <string>__ID_KOL_NAME__</string>
+      <list/>
+    </entry>
+    <entry>
+      <string>$ageLimit</string>
       <list/>
     </entry>
   </table>
