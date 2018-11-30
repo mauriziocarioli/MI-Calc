@@ -53,15 +53,17 @@
       <string>__ID_KOL_NAME__</string>
       <list>
         <string>2</string>
+        <string>0</string>
       </list>
     </entry>
     <entry>
       <string>$ageLimit</string>
       <list>
-        <string>18</string>
+        <string>30</string>
+        <string></string>
       </list>
     </entry>
   </table>
   <idCol>2</idCol>
-  <rowsCount>1</rowsCount>
+  <rowsCount>2</rowsCount>
 </rule>
