@@ -8,16 +8,19 @@ public class MortgageApplication implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "program")
+	@org.kie.api.definition.type.Label("program")
 	private java.lang.String program;
-	@org.kie.api.definition.type.Label(value = "years")
+	@org.kie.api.definition.type.Label("years")
 	private java.lang.Integer years;
-	@org.kie.api.definition.type.Label(value = "amount")
+	@org.kie.api.definition.type.Label("amount")
 	private java.lang.Integer amount;
-	@org.kie.api.definition.type.Label(value = "LTV")
+	@org.kie.api.definition.type.Label("LTV")
 	private java.lang.Double ltv;
-	@org.kie.api.definition.type.Label(value = "annual MIP")
+	@org.kie.api.definition.type.Label("annual MIP")
 	private java.lang.Integer annualMIP;
+
+	@org.kie.api.definition.type.Label(value = "price")
+	private java.lang.Double price;
 
 	public MortgageApplication() {
 	}
@@ -62,14 +65,24 @@ public class MortgageApplication implements java.io.Serializable {
 		this.annualMIP = annualMIP;
 	}
 
+	public java.lang.Double getPrice() {
+		return this.price;
+	}
+
+	public void setPrice(java.lang.Double price) {
+		this.price = price;
+	}
+
 	public MortgageApplication(java.lang.String program,
 			java.lang.Integer years, java.lang.Integer amount,
-			java.lang.Double ltv, java.lang.Integer annualMIP) {
+			java.lang.Double ltv, java.lang.Integer annualMIP,
+			java.lang.Double price) {
 		this.program = program;
 		this.years = years;
 		this.amount = amount;
 		this.ltv = ltv;
 		this.annualMIP = annualMIP;
+		this.price = price;
 	}
 
 }
