@@ -1,0 +1,9 @@
+package com.mortgageinsurance;
+
+import java.lang.Number;
+
+rule "Underage"
+	dialect "mvel"
+	when
+	then
+end
